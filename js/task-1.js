@@ -5,10 +5,9 @@ for (const key in products) {
     total += products[key];
     if (total > containerSize) {
         return false;
-    } else {
-        return true;
-    }
+    } 
 }
+return true;
 }
 
 console.log(
